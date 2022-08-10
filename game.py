@@ -34,7 +34,6 @@ def play():
         print("No, you are not ready!")
 
 
-# Depois pesquisar o que é essa definição:
 if __name__ == "__main__":
   main()
 
