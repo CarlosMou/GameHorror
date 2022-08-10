@@ -10,7 +10,6 @@ def main():
     except KeyboardInterrupt:
         print("\n\nInterrupted by the user!")
 
-
 def begin_loop():
     while True:
         play()
