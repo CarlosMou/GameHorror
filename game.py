@@ -16,13 +16,13 @@ def begin_loop():
         play()
 
 
-def play():
+def play(): #teste de condicional de ação por idades
     answer = input("Are you READY? ")
     if answer.lower() == "no":
         print ("All right, let's begin!")
         try:
             age = int(input("What is your age? "))
-            if age >= 90: 
+            if age >= 90:
                 print ("You will probably die very soon...")
             elif age <= 18:
                 print ("You need to hide.")
