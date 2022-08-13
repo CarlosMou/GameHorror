@@ -31,7 +31,7 @@ def play(): #test conditional for ages
             print("You informed a invalid data... Get out of here!")
     else:
         print("No, you are not ready!")
-
+ #insert more data with name and localization
 
 if __name__ == "__main__":
   main()
