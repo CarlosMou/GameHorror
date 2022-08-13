@@ -15,7 +15,7 @@ def begin_loop():
         play()
 
 
-def play(): #teste de condicional de ação por idades
+def play(): #test conditional for ages
     answer = input("Are you READY? ")
     if answer.lower() == "no":
         print ("All right, let's begin!")
